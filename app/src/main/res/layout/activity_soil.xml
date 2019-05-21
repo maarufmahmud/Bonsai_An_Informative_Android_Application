@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Soil"
+    android:background="#fff"
+    android:orientation="vertical"
+    android:layout_margin="5dp" >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/soil1"
+        android:layout_gravity="top"/>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="মাটি তৈরি"
+        android:textSize="30dp" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#000"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#000"
+        android:layout_marginTop="5dp"/>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="বনসাই চাষের জন্য দো-আঁশ মাটি সবচেয়ে উপযোগী। এছাড়া এতে কম্পোস্ট সার ,ইটের গুড়ো, বালি, পাথর এর গুড়ো,পোড়ামাটির গুড়ো,ছাই ইত্যাদি মেশানো উচিৎ। সম্ভব হলে এতে কেঁচো সার, গোবর সার ইত্যাদি মেশানো উচিৎ। মাটি এমন ভাবে তৈরি করতে হবে যাতে পানি নিষ্কাশন ভাল হয়। টবের পানি নিষ্কাশনের জন্য ছিদ্রের উপর ইটের কুচির পরিবর্তে এক টুকরা তারের জালি রেখে তা কিছু কাঁকড় দিয়ে ঢেকে দিতে হবে।
+"
+                android:textSize="20dp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:gravity="bottom" >
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="&lt;&lt;পূর্ববর্তী  " />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="মূলপাতা" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="পরবর্তী >>" />
+    </LinearLayout>
+
+</LinearLayout>

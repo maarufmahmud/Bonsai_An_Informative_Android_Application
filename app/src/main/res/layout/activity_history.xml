@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".History"
+    android:background="#fff"
+    android:orientation="vertical"
+    android:layout_margin="5dp" >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/img_1005"
+        android:layout_gravity="top"/>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="বনসাই এর ইতিহাস"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="30dp" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#000"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#000"
+        android:layout_marginTop="5dp"/>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="50dp"
+                android:gravity="center"
+                android:text="প্রাচীন মিশরীয় সভ্যতায় পাত্রে বা টবে গাছ বা বিভিন্ন ধরণের গাছের চারা উৎপাদনের কথা জানা যায়। ৪০০০ খ্রীষ্ট পূর্বাব্দের রাজনৈতিক নথিপত্র থেকে পাথর কেটে তৈরি করা পাত্রে গাছ চাষের হদিস পাওয়া যায়। প্রচুর মন্দিরে তৃতীয় ফারাও রামেসেস পাত্রে লাগানো জলপাই, খেজুর এবং অন্যান্য গাছের বাগান দান করেছিলেন। প্রাচীন ভারতে ঔষধ আর খাবারের জন্য টবে বা পাত্রে গাছ লাগানোর প্রচলন ছিল। ২৬৫ খ্রীষ্টাব্দ থেকে ৪২০ খ্রীষ্টাব্দের মধ্যবর্তী জিন সাম্রাজ্যের সময়ের লেখালেখিতে প্রথম ‘পেনজাই’ শব্দের উল্যেখ পাওয়া যায়। বিভিন্ন সময়ে চীন দেশের নানা জায়গায়, জাপানে, কোরিয়াতে, ভিয়েতনামে এবং থাইল্যাণ্ডে ভিন্ন আকারে এর চর্চা বিস্তার লাভ করে। "
+                android:textSize="20dp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:gravity="bottom" >
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="&lt;&lt;পূর্ববর্তী  " />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="মূলপাতা" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="পরবর্তী >>" />
+    </LinearLayout>
+
+</LinearLayout>

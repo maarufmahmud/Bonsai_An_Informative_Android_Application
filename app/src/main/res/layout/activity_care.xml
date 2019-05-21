@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Care"
+    android:layout_margin="5dp"
+    android:background="#fff"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:src="@drawable/soil1" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="পরিচর্যা"
+        android:textSize="30dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#000" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="5dp"
+        android:background="#000" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="একটু আন্তরিকতাপূর্ণ দেখভাল আপনার বনসাইটিকে আরও সুন্দরভাবে গড়ে তুলতে সাহায্য করবে। এ ক্ষেত্রে খুব বেশি ঝামেলার দরকার হয় না। \nবনসাইয়ের পরিচর্যার নিয়ম সমূহ-
+• গাছকে নিয়মিত কালো মাটি, বালু বা ইটের চূর্ণ, সরিষা বা নীলের খোসা ইত্যাদি খাবার দিতে হবে।
+• অতিরিক্ত জলাবদ্ধতা এবং রোদ থেকে দূরে রাখতে হবে।
+• ধুলো-ময়লামুক্ত রাখতে পানি দিয়ে পাতা ও ডাল মুছে দিতে হবে।
+• টবের মাটিতে পোকামাকড় কিংবা ছত্রাক হলে সঠিক মাত্রায় কীটনাশক দিতে হবে।
+• এমন স্থানে রাখতে হবে, যেখানে আলো-বাতাস চলাচল করে কিন্তু লোকজনের যাওয়া-আসা কম।
+• নির্ধারিত আকৃতি ঠিক রাখতে নির্ধারিত ডালপালা বাদে ছাঁটাই করতে হবে।
+• বেশি ব্যস্ত থাকলে সঠিক মাত্রায় তরল বা স্পেস সার প্রয়োগ করতে পারেন।
+• প্রতি একবছর অন্তর টবের মাটি পরিবর্তন করতে হবে।
+• গাছের ছাঁটাইসহ অন্যান্য কাজে নির্ধারিত যন্ত্রপাতি ব্যবহার করতে হবে।
+"
+                android:textSize="20dp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:gravity="bottom" >
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="&lt;&lt;পূর্ববর্তী  " />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="মূলপাতা" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="পরবর্তী >>" />
+    </LinearLayout>
+
+</LinearLayout>

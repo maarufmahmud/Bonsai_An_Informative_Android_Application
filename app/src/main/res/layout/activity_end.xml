@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".End"
+    android:layout_margin="5dp"
+    android:background="#fff"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:src="@drawable/end" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="পরিশেষ"
+        android:textSize="30dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#000" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="5dp"
+        android:background="#000" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="বনসাই একটি সৃষ্টিশীল কাজ। এর মাধ্যমে আনন্দ পাওয়া যায়। বনসাই করতে হলে শ্রম দিতে হবে। এর সাথে সব সময় লেগে থাকতে হবে। বনসাই যেমন কঠিন আবার তেমনি সহজ। প্রশিক্ষণ ছাড়া বনসাই করা সম্ভব নয়। এর সম্পর্কে ভালো ধারণা না থাকলে সফলতা পাওয়া কঠিন। তরুণ-তরুণীদের বর্তমানে বনসাইয়ের প্রতি বেশ ঝোঁক রয়েছে। তারা প্রশিক্ষণ নিয়ে আন্তরিকভাবে কাজ করলে সফলতা পাবে নিশ্চিত।
+প্রশিক্ষণ পেতে যোগাযোগ করতে পারেন, রেডিয়েন্ট ইনস্টিটিউট অব ডিজাইন কিংবা জাতীয় উদ্যান ও বলধা বাগান কর্তৃপক্ষের সাথে।"
+                android:textSize="20dp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:gravity="bottom" >
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="&lt;&lt;পূর্ববর্তী  " />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="মূলপাতা" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="Credits" />
+    </LinearLayout>
+
+</LinearLayout>
